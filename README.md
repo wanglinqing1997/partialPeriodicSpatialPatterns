@@ -4,9 +4,9 @@ Partial Periodic Spatial Pattern Mining (PPSPM) aims to find all neighboring ite
 
 The algorithm for PPSPM has been written in Python 3. The command to execute the program is as follows.
 
-python3 partialSpatialPeriodicPatterns.py <maxIAT> <minPS> <temporalDatabaseFile> <item_NeighborsFile> <outputFileName>
+python3 partialSpatialPeriodicPatterns.py maxIAT minPS temporalDatabaseFile item_NeighborsFile outputFileName
   
- The <maxIAT> and <minPS> values are specified in percentages.
+ The maxIAT and minPS values are specified in percentages.
   
  To test the repetability of our experiments, we have provided some databases in the data folder. The details are as follows:
  1. datat10.txt is a synthetic T10I4D100K database used in our experiments. The first column represents the timestamp (or transactional identifier) and remaining columns represents items.
