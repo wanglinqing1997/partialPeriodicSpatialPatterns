@@ -19,7 +19,7 @@ The algorithms, n_ECLAT and ST_ECLAT, have  been written in Python 3. The comman
       
       
       
-##Examples of running above code##
+## Examples of running above code
 >python3 partialSpatialPeriodicPatterns.py *1* *0.1* **./Datasets/data_t10.txt ./Datasets/dist_10.txt patterns_dist_10.txt**
 
 > time -v python3 partialSpatialPeriodicPatterns.py *1* *0.1* **./Datasets/data_t10.txt ./Datasets/dist_10.txt patterns_dist_10.txt** (ubuntu)
