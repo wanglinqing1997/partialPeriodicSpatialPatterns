@@ -1,7 +1,8 @@
-file1='coordinates.txt'
-file2='dist_15.txt'
-maxDist=15
 import math
+import sys
+file1=sys.argv[1]
+file2=sys.argv[3]
+maxDist=float(sys.argv[2])
 def dist(p1,p2):
 	# print(p1,p2)
 	p=int(p1[0])-int(p2[0])
@@ -31,4 +32,4 @@ with open(file2,'w') as q:
 		q.write(nbh[key])
 		q.write('\n')
 
-print(dist([0,0],[5,4]))
+# print(dist([0,0],[5,4]))
