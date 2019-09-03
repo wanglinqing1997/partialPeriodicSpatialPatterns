@@ -9,4 +9,4 @@
 
 
 #command to generate neighbours for items
-< python3
+> python3 neighbourGenerator.py coordinates.txt **distanceThreshold** dist_threshold.txt
