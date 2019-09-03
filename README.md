@@ -5,6 +5,7 @@ Partial Periodic Spatial Pattern Mining (PPSPM) aims to find all neighboring ite
 The algorithms, n_ECLAT and ST_ECLAT, have  been written in Python 3. The command to execute the program is as follows.
 
 > python3 ST_ECLAT.py *maxIAT* *minPS* **temporalDatabaseFile item_NeighborsFile outputFileName**
+
 > python3 n_ECLAT.py *maxIAT* *minPS* **temporalDatabaseFile item_NeighborsFile outputFileName**
   
  The *maxIAT* and *minPS* values are specified in percentages.
