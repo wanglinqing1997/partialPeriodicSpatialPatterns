@@ -8,3 +8,5 @@
 |dist_10.txt| item neighbors|
 
 
+#command to generate neighbours for items
+< python3
