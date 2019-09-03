@@ -82,7 +82,7 @@ if __name__ == "__main__":
     data = Read_Data(sys.argv[3]) #change the delimiter based on your input file
     with open(sys.argv[4],'r') as nbh:
         for line in nbh:
-            print(line)
+            #print(line)
             li=line.split()
             if li[0] in data:
                 ds=set()
