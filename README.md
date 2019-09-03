@@ -21,13 +21,13 @@ The algorithms, n_ECLAT and ST_ECLAT, have  been written in Python 3. The comman
       
       
 ## Examples of running above code
->python3 ST_ECLAT.py 6000 50 Datasets/data_t10.txt Datasets/dist_5.txt pattern_dist_5.txt
+>python3 ST_ECLAT.py 6000 50 Datasets/data_t10.txt Datasets/dist_5.txt patterns_dist_5.txt
 
->python3 n_ECLAT.py 6000 50 Datasets/data_t10.txt Datasets/dist_5.txt pattern_dist_5.txt
+>python3 n_ECLAT.py 6000 50 Datasets/data_t10.txt Datasets/dist_5.txt patterns_dist_5.txt
 
-> /usr/bin/time -v python3 ST_ECLAT.py 6000 50 Datasets/data_t10.txt Datasets/dist_5.txt pattern_dist_5.txt (ubuntu)
+> /usr/bin/time -v python3 ST_ECLAT.py 6000 50 Datasets/data_t10.txt Datasets/dist_5.txt patterns_dist_5.txt (ubuntu)
 
->/opt/local/libexec/gnubin/time -v python3 ST_ECLAT.py 6000 50 Datasets/data_t10.txt Datasets/dist_5.txt pattern_dist_5.txt (Mac)
+>/opt/local/libexec/gnubin/time -v python3 ST_ECLAT.py 6000 50 Datasets/data_t10.txt Datasets/dist_5.txt patterns_dist_5.txt (Mac)
   
  
  
