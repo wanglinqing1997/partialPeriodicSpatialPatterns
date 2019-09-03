@@ -5,7 +5,7 @@
 |-------|-------|
 |T10I4D100K.txt|  timestamp/rowID item 1, item 2, .....|
 |coordinates.txt| x-coordinates,y-coordinates|
-|dist_10.txt| item neighbors|
+|dist_10.txt| item neighbors with **distanceThreshold** of 10|
 
 
 #command to generate neighbours for items
