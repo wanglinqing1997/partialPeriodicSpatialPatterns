@@ -8,7 +8,7 @@ The algorithms, n_ECLAT and ST_ECLAT, have  been written in Python 3. The comman
 
 > python3 n_ECLAT.py *maxIAT* *minPS* **temporalDatabaseFile item_NeighborsFile outputFileName**
   
- The *maxIAT* and *minPS* values are specified in percentages.
+ The *maxIAT* and *minPS* values are  to be specified in count.
   
  To test the repetability of our experiments, we have provided some databases in the **Datasets** folder. The details are as follows:
  1. **data_t10.txt** is a synthetic T10I4D100K database used in our experiments. The first column represents the timestamp (or transactional identifier) and remaining columns represents items.
